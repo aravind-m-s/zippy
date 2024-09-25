@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:zippy/src/controllers/bloc/zippyform_bloc.dart';
-import 'package:zippy/src/core/app_colors.dart';
 
 class TopNextAndSubmitButton extends StatelessWidget {
   const TopNextAndSubmitButton({

@@ -2,7 +2,6 @@
 //
 //     final dateModel = dateModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 DateModel dateModelFromJson(String str) => DateModel.fromJson(json.decode(str));

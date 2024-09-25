@@ -2,7 +2,6 @@
 //
 //     final checkboxModel = checkboxModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 CheckboxModel checkboxModelFromJson(String str) =>

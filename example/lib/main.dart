@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
 
   showSnackBar2(BuildContext context) {
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
+      const SnackBar(
         content: Text("Success"),
       ),
     );

@@ -2,7 +2,6 @@
 //
 //     final radioModel = radioModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 RadioModel radioModelFromJson(String str) =>

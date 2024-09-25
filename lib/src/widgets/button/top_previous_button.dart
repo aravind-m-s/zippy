@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:zippy/src/controllers/bloc/zippyform_bloc.dart';
-import 'package:zippy/src/core/app_colors.dart';
 
 class TopPreviousAndBackButton extends StatelessWidget {
   final String label;

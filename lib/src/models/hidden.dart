@@ -2,7 +2,6 @@
 //
 //     final hiddenModel = hiddenModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 HiddenModel hiddenModelFromJson(String str) =>

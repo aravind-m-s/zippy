@@ -2,7 +2,6 @@
 //
 //     final dropdownModel = dropdownModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 DropdownModel dropdownModelFromJson(String str) =>

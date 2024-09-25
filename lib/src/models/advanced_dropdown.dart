@@ -2,7 +2,6 @@
 //
 //     final advancedDropdownModel = advancedDropdownModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 AdvancedDropdownModel advancedDropdownModelFromJson(String str) =>

@@ -2,7 +2,6 @@
 //
 //     final uploadModel = uploadModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 UploadModel uploadModelFromJson(String str) =>

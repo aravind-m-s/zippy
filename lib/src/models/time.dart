@@ -2,7 +2,6 @@
 //
 //     final timeModel = timeModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 TimeModel timeModelFromJson(String str) => TimeModel.fromJson(json.decode(str));
