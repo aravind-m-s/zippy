@@ -1,7 +1,7 @@
 
-# Zippy Form Package
+# Zippy Form
 
-Zippy Form is a dynamic, customizable form solution built with Flutter. It provides flexibility to create multi-step forms with various field types, navigation buttons, validation, and customization options for a seamless user experience across different platforms.
+[Zippy Form](https://zippyform.io) is a dynamic, customizable form solution. It provides flexibility to create multi-step forms with various field types, navigation buttons, validation, and customization options for a seamless user experience across different platforms.
 
 ## Features
 
@@ -23,9 +23,13 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  zippy:
-    git:
-      url: https://github.com/your-repo/zippy.git
+  zippy: ^0.0.1
+```
+
+Or run 
+
+```bash
+flutter pub add zippy
 ```
 
 Then, run `flutter pub get` to install the package.
