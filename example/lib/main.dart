@@ -30,6 +30,8 @@ class _MyAppState extends State<MyApp> {
           errorWidget: showSnackBar,
           hiddenFields: hiddenFields,
           onSubmitted: showSnackBar2,
+          buttonPosition: ButtonPosition.top,
+          platformStyle: PlatformStyle.cupertino,
         ),
       ),
     );

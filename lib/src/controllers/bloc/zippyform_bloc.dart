@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:developer';
+import 'dart:io';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
@@ -405,6 +406,8 @@ class ZippyFormBloc extends Bloc<ZippyFormEvent, ZippyFormState> {
               fieldName: element.label,
               value: uploadValues[element.fieldId] ?? "",
               validations: element.validations,
+              lenght: File(uploadValues[element.fieldId] ?? "").lengthSync() /
+                  (1024 * 1024),
             );
             if (error != null) {
               errors[element.fieldId] = error;

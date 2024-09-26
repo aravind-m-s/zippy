@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:zippy/src/models/textfield.dart' as text_field;
 import 'package:zippy/src/models/text_area.dart' as text_area;
 import 'package:zippy/src/models/number_field.dart' as number_field;
@@ -194,13 +192,13 @@ class FieldValidations {
   static String? validateUploadField({
     required String fieldName,
     required String value,
+    required double lenght,
     required upload_field.Validations validations,
   }) {
     String? error;
     if (validations.required && value.trim().isEmpty) {
       error = "$fieldName is Required";
-    } else if (validations.fileMaxSizeMb <
-        File(value).lengthSync() / (1024 * 1024)) {
+    } else if (validations.fileMaxSizeMb < lenght) {
       error = "$fieldName should be less than ${validations.fileMaxSizeMb} MB";
     }
     return error;

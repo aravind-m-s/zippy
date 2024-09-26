@@ -1,5 +1,5 @@
 name: zippy
-description: "A package to intgrate zippy form"
+description: "Zippy Form is a flexible Flutter package for creating customizable multi-step forms with various field types, validation, and platform-specific styling."
 version: 0.0.1
 repository: https://github.com/aravind-m-s
 
